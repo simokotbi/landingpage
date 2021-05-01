@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url('./src/Vector\ 1.svg')no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    padding:20px 50px;
+}
+nav ul a{
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}
+nav ul li{
+    padding: 0 15px;
+}
+nav ul {
+  
+list-style: none;
+}
+nav{
+    display: flex;  
+    align-items: center;
+    
+}
+.brand img{
+    height: 50px;
+   
+}
+.brand{
+     flex: 50%;
+}
+.main-nav{
+  
+display: flex;
+justify-content:flex-end;
+flex: 50%;
+}
+
+.main{
+    margin: 40px 20px;
+    padding: 40px;
+    position: relative;
+}
+.main h1{
+    font-size: 28px;
+    font-family: 500px;
+    margin: 20px 0;
+}
+.main p{
+    width: 40%;
+}
+.main img{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+ @media (max-width: 780px) { 
+    .main p{
+        width: 100%;
+    }
+}

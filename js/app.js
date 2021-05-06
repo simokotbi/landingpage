@@ -17,4 +17,20 @@
         hamburger.classList.toggle('is-open');
       });
 
-  
+
+      ///on scroll
+
+      const onscroll = ( listener) => {
+        addEventListener('scroll', listener)
+      }
+      //
+      const backtotopbutton=document.querySelector(".back-to-top");
+      onscroll(()=>{
+         if(window.scrollY>100){
+       backtotopbutton.classList.add('active');
+      } else {
+        backtotopbutton.classList.remove('active');
+      }
+      })
+      
+    

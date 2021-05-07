@@ -141,6 +141,8 @@ transition: all 5s;
     
     background: url('./src/Vector\ 1.svg')no-repeat;
     background-size: cover;
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 80%, 0 100%); */
+    
     
 }
 .hero h1{
@@ -150,8 +152,9 @@ transition: all 5s;
 }
 .hero p{
     width: 40%;
-    font-size: 16px;
-    
+    font-size: 16px; 
+line-height:24px;
+color:#272829;
 }
 .right-text span{
   color: #0563bb;
@@ -219,8 +222,10 @@ i{color: var(--color-primary1);
 .about ul strong{
   margin-right: 5px;
   text-transform: uppercase;
-  font-weight: bolder;
- font-family:fantasy
+ color: #45505b;
+  font-family: Poppins, sans-serif;
+  
+  
 }
 .col {
  
@@ -271,9 +276,10 @@ flex-direction: column;
   width:70%;
   font-size: 1.2rem;
 }
+
 .info{
   color: #0563bb;
-  border-bottom: 2px solid black;
+  
 }
 .col1 h1{
   font-size: 32px;
@@ -334,6 +340,38 @@ flex-direction: column;
   background: #0678e3;
   color: #fff;
 }
+
+.onboarding h1{
+  color: var(--color-primary1);
+}
+.onboarding p{
+  font: 16px;
+  font-weight: 400;
+  
+  line-height: 1;
+}
+.btn{
+  color: #fff;
+  background: var(--color-primary1);
+  padding: 15px 25px;
+  border-radius: 45px;
+  border: none;
+  margin: 25px;
+  cursor: pointer;
+  display: block;
+}
+.onboarding .landin-image img{
+  /* position: absolute; */
+  max-width: 512px;
+  max-height: 428px;
+  width: 100%;
+  left: 420px;
+  top: 58px;
+  transform: rotate(
+12deg
+);
+}
+
       /* .onboarding--landingImgContainer--Ev88x {
         position: absolute;
         width: 512px;
